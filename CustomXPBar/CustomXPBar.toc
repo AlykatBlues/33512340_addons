@@ -1,0 +1,8 @@
+## Interface: 30300
+## Title: Custom XP Bar
+## Notes: Custom XP Bar for level 255
+## Author: YourName
+## Version: 1.1
+## SavedVariables: CustomXPBarDB
+CustomXPBar.xml
+CustomXPBar.lua

@@ -1,0 +1,22 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+    <Frame name="CustomXPBarFrame" parent="UIParent" frameStrata="LOW" movable="true" enableMouse="true">
+        <Size>
+            <AbsDimension x="300" y="20" />
+        </Size>
+        <Anchors>
+            <Anchor point="BOTTOM">
+                <Offset>
+                    <AbsDimension x="0" y="150" />
+                </Offset>
+            </Anchor>
+        </Anchors>
+        <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background">
+            <EdgeSize>
+                <AbsValue val="8"/>
+            </EdgeSize>
+        </Backdrop>
+    </Frame>
+</Ui>
